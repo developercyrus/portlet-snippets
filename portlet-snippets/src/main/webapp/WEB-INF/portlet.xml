@@ -1,0 +1,19 @@
+<portlet-app
+    xmlns="http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd"
+    version="2.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd
+                        http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd">
+
+    <portlet>
+        <portlet-name>HelloWorld</portlet-name>
+        <portlet-class>impl.helloworld.HelloWorld</portlet-class>
+
+        <supports>
+            <mime-type>text/html</mime-type>
+            <portlet-mode>VIEW</portlet-mode>
+        </supports>
+        
+        <resource-bundle>messages.HelloWorld</resource-bundle>
+    </portlet>
+</portlet-app>
